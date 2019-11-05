@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="214dp"
+        android:text="Location: "
+        android:textSize="24sp"
+        custom:fontFamily="@font/electrolize" />
+
+
+    <EditText
+        android:id="@+id/editDetail"
+        android:layout_width="360dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="337dp"
+        android:ems="10"
+        android:hint="more detail"
+        android:imeOptions="actionDone"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editLocation"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="208dp"
+        android:ems="10"
+        android:hint="enter location"
+        android:imeOptions="actionDone"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="31dp"
+        android:text="Title: "
+        android:textSize="24sp"
+        custom:fontFamily="@font/electrolize" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="151dp"
+        android:text="Time: "
+        android:textSize="24sp"
+        custom:fontFamily="@font/electrolize" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="272dp"
+        android:text="Detail: "
+        android:textSize="24sp"
+        custom:fontFamily="@font/electrolize" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="94dp"
+        android:text="Date: "
+        android:textSize="24sp"
+        custom:fontFamily="@font/electrolize" />
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="enter title"
+        android:imeOptions="actionDone"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/addNewGroupMeetingSubmit"
+        android:layout_width="222dp"
+        android:layout_height="69dp"
+        android:layout_below="@+id/editDetail"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="56dp"
+        android:layout_toEndOf="@+id/textView"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/electrolize"
+        android:onClick="submitNewMeeting"
+        android:text="submit"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/spinnerMonths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="-308dp" />
+
+    <Spinner
+        android:id="@+id/spinnerDates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="-305dp" />
+
+    <Spinner
+        android:id="@+id/spinnerYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="265dp"
+        android:layout_marginTop="-306dp" />
+
+    <Spinner
+        android:id="@+id/spinnerAMPM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="262dp"
+        android:layout_marginTop="-249dp" />
+
+    <Spinner
+        android:id="@+id/spinnerHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="-253dp" />
+
+    <Spinner
+        android:id="@+id/spinnerMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="-251dp" />
+
+</RelativeLayout>

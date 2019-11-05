@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_view_QNA">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="93dp"
+        >
+
+        <TextView
+            android:id="@+id/textViewPostTitle"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="Post:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/electrolize" />
+
+        <TextView
+            android:id="@+id/textViewPostOwner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:fontFamily="@font/electrolize"
+            android:layout_below="@+id/textViewPostTitle"
+            android:text="Posted By: " />
+
+        <TextView
+            android:id="@+id/textViewPostDateAndTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            app:fontFamily="@font/electrolize"
+            android:layout_marginTop="66dp"
+            android:text="Date and Time: " />
+
+        <TextView
+            android:id="@+id/textViewPostContent"
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="92dp"
+            android:text="Content" />
+
+        <ListView
+            android:id="@+id/listViewPostReplies"
+            android:layout_width="wrap_content"
+            android:layout_height="252dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:background="#d5dde1"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" />
+
+        <Button
+            android:id="@+id/buttonReplyToPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="0dp"
+            android:text="Reply to this post" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

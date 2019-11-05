@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/EditHomePageNameButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:text="Class Name"
+        android:textAllCaps="false"
+        android:textColor="#4b5259"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/electrolize" />
+
+    <EditText
+        android:id="@+id/EditMeetingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:ems="10"
+        android:hint="enter class name"
+        android:imeOptions="actionDone"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/EditHomePageNameButton"
+        android:layout_width="121dp"
+        android:layout_height="37dp"
+
+        android:layout_below="@+id/EditMeetingTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="searchtheclass"
+
+        android:fontFamily="@font/electrolize"
+
+
+        android:textStyle="bold"
+
+        android:text="Search"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+</RelativeLayout>

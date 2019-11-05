@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Announcement"
+            android:icon="@drawable/ic_menu_announcement"
+            android:title="Announcement" />
+        <item
+            android:id="@+id/nav_QA"
+            android:icon="@drawable/ic_menu_qa"
+            android:title="Q&amp;A" />
+        <item
+            android:id="@+id/nav_Groupmeeting"
+            android:icon="@drawable/ic_menu_groupmeeting"
+            android:title="Group Meeting" />
+        <item
+            android:id="@+id/nav_Notes"
+            android:icon="@drawable/ic_menu_notes"
+            android:title="Notes" />
+    </group>
+
+
+</menu>

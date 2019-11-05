@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "839729531244",
+    "firebase_url": "https://imtutor-5eafc.firebaseio.com",
+    "project_id": "imtutor-5eafc",
+    "storage_bucket": "imtutor-5eafc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839729531244:android:377b594e14e281e1",
+        "android_client_info": {
+          "package_name": "com.example.jeffrey.imtutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839729531244-ldvd0b397dh06pn30i5nc0r0rne2c9uv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jeffrey.imtutor",
+            "certificate_hash": "4bde2b81151201c2099759498a50207196d24252"
+          }
+        },
+        {
+          "client_id": "839729531244-rsnbvk61npudj6ca3firmn8lkejp0kvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDifI2fj87duf0nE0maYbvt8lJF9uZB7dU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839729531244-rsnbvk61npudj6ca3firmn8lkejp0kvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

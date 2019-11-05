@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jeffrey.imtutor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity_login">
+            android:windowSoftInputMode="adjustPan|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_signup" />
+        <activity android:name=".forgotpassword" />
+        <activity android:name=".Activity_passwordreset" />
+        <activity
+            android:name=".Activity_homepage"
+            android:label="@string/title_activity_homepage"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity_classdetail"
+            android:label="@string/title_activity_classdetail"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Activity_viewGroupMeetingDetail" />
+        <activity android:name=".Activity_view_QNA" />
+        <activity android:name=".addQuestion"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
